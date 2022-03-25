@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -39,9 +39,9 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "light" # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : "github-light" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
@@ -108,21 +108,18 @@ author:
   location         : "Erlangen, Germany"
   email            : "prathmeshrmadhu@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-link"
-       url: "prathmeshrmadhu@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://lme.tf.fau.de/person/madhu/"
+      url: "https://lme.tf.fau.de/person/madhu/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/prathmeshmadhu"
+      url: "https://twitter.com/prathmeshmadhu"
 #    - label: "Facebook"
 #      icon: "fab fa-fw fa-facebook-square"
 #      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/prathmeshrmadhu"
+      url: "https://github.com/prathmeshrmadhu"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      # url: "https://instagram.com/"
@@ -130,21 +127,18 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-link"
-       url: "prathmeshrmadhu@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://lme.tf.fau.de/person/madhu/"
+      url: "https://lme.tf.fau.de/person/madhu/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/prathmeshmadhu"
+      url: "https://twitter.com/prathmeshmadhu"
 #    - label: "Facebook"
 #      icon: "fab fa-fw fa-facebook-square"
 #      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/prathmeshrmadhu"
+      url: "https://github.com/prathmeshrmadhu"
 
 
 # Reading Files
@@ -285,3 +279,11 @@ defaults:
       comments: # true
       share: true
       related: true
+      classes: wide
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      share: true
